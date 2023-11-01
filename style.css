@@ -1,0 +1,60 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #000;
+    font-family: sans-serif;
+    color: white;
+}
+
+.container{
+    height: calc(100vh - 70px);
+}
+
+#navmenu{
+    word-spacing: 35px;
+}
+
+.spanbg{
+    background-color: rgb(155, 58, 58);
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 2.2vw;
+    font-family: sans;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.headings{
+    font-size: 8vw;
+    font-weight: bold;
+}
+
+#img1{
+    width: 25%;
+    position: absolute;
+    top: 90px;
+    left: 100px;
+}
+
+#img2{
+    width: 20%;
+    position: absolute;
+    top: 90px;
+    right: 40px;
+}
+
+#img3{
+    width: 25%;
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+}
+
+.scroollicon{
+    margin-top: 100px;
+}
